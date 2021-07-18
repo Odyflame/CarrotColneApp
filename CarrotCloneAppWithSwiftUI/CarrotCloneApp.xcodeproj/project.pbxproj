@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181150B2269FE54F006B3FB2 /* CarrotCloneAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181150B1269FE54F006B3FB2 /* CarrotCloneAppApp.swift */; };
+		181150B4269FE54F006B3FB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181150B3269FE54F006B3FB2 /* ContentView.swift */; };
+		181150B6269FE552006B3FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181150B5269FE552006B3FB2 /* Assets.xcassets */; };
+		181150B9269FE552006B3FB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181150B8269FE552006B3FB2 /* Preview Assets.xcassets */; };
+		181150C2269FE6E5006B3FB2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181150C1269FE6E5006B3FB2 /* HomeView.swift */; };
+		181150C4269FE720006B3FB2 /* HomRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181150C3269FE720006B3FB2 /* HomRow.swift */; };
+		181150C8269FE874006B3FB2 /* itemList.json in Resources */ = {isa = PBXBuildFile; fileRef = 181150C7269FE874006B3FB2 /* itemList.json */; };
+		181150CA269FE8E9006B3FB2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181150C9269FE8E9006B3FB2 /* Item.swift */; };
+		181150CC269FE90A006B3FB2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181150CB269FE90A006B3FB2 /* ModelData.swift */; };
+		181150CE269FE9EC006B3FB2 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181150CD269FE9EC006B3FB2 /* Profile.swift */; };
+		187DB84026A3CDF300AF7B27 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB83F26A3CDF300AF7B27 /* CategoryGridView.swift */; };
+		187DB84226A4003200AF7B27 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB84126A4003200AF7B27 /* Category.swift */; };
+		187DB84526A40DE900AF7B27 /* MyCarrotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB84426A40DE900AF7B27 /* MyCarrotView.swift */; };
+		187DB84726A4119200AF7B27 /* MiniProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB84626A4119200AF7B27 /* MiniProfile.swift */; };
+		187DB84F26A419D600AF7B27 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB84926A419D500AF7B27 /* Badge.swift */; };
+		187DB85026A419D600AF7B27 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB84A26A419D600AF7B27 /* BadgeBackground.swift */; };
+		187DB85126A419D600AF7B27 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB84B26A419D600AF7B27 /* HikeBadge.swift */; };
+		187DB85226A419D600AF7B27 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB84C26A419D600AF7B27 /* RotatedBadgeSymbol.swift */; };
+		187DB85326A419D600AF7B27 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB84D26A419D600AF7B27 /* BadgeSymbol.swift */; };
+		187DB85426A419D600AF7B27 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB84E26A419D600AF7B27 /* HexagonParameters.swift */; };
+		189DB83726A17578005AF3E1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189DB83626A17578005AF3E1 /* CircleImage.swift */; };
+		18B016C626A156D500A713DE /* DetailShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B016C526A156D500A713DE /* DetailShoppingView.swift */; };
+		18E84AF526A278F2002027FC /* SellersOtherSellListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E84AF426A278F2002027FC /* SellersOtherSellListView.swift */; };
+		18E84AF926A27E56002027FC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E84AF826A27E56002027FC /* Card.swift */; };
+		18E84AFB26A2B02B002027FC /* CardGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E84AFA26A2B02B002027FC /* CardGridView.swift */; };
+		18E84B0026A2CD5F002027FC /* SellerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E84AFF26A2CD5F002027FC /* SellerItem.swift */; };
+		18E84B0126A2DA25002027FC /* otherItemList.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E84AFE26A2CC6B002027FC /* otherItemList.json */; };
+		18E84B0426A2DD3E002027FC /* NearbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E84B0326A2DD3E002027FC /* NearbyView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		181150AE269FE54F006B3FB2 /* CarrotCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181150B1269FE54F006B3FB2 /* CarrotCloneAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotCloneAppApp.swift; sourceTree = "<group>"; };
+		181150B3269FE54F006B3FB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		181150B5269FE552006B3FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181150B8269FE552006B3FB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		181150BA269FE552006B3FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181150C1269FE6E5006B3FB2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		181150C3269FE720006B3FB2 /* HomRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomRow.swift; sourceTree = "<group>"; };
+		181150C7269FE874006B3FB2 /* itemList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = itemList.json; sourceTree = "<group>"; };
+		181150C9269FE8E9006B3FB2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		181150CB269FE90A006B3FB2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		181150CD269FE9EC006B3FB2 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		187DB83F26A3CDF300AF7B27 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		187DB84126A4003200AF7B27 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		187DB84426A40DE900AF7B27 /* MyCarrotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotView.swift; sourceTree = "<group>"; };
+		187DB84626A4119200AF7B27 /* MiniProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniProfile.swift; sourceTree = "<group>"; };
+		187DB84926A419D500AF7B27 /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		187DB84A26A419D600AF7B27 /* BadgeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		187DB84B26A419D600AF7B27 /* HikeBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		187DB84C26A419D600AF7B27 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		187DB84D26A419D600AF7B27 /* BadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		187DB84E26A419D600AF7B27 /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		189DB83626A17578005AF3E1 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		18B016C526A156D500A713DE /* DetailShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailShoppingView.swift; sourceTree = "<group>"; };
+		18E84AF426A278F2002027FC /* SellersOtherSellListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellersOtherSellListView.swift; sourceTree = "<group>"; };
+		18E84AF826A27E56002027FC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		18E84AFA26A2B02B002027FC /* CardGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGridView.swift; sourceTree = "<group>"; };
+		18E84AFE26A2CC6B002027FC /* otherItemList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = otherItemList.json; sourceTree = "<group>"; };
+		18E84AFF26A2CD5F002027FC /* SellerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerItem.swift; sourceTree = "<group>"; };
+		18E84B0326A2DD3E002027FC /* NearbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181150AB269FE54F006B3FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181150A5269FE54F006B3FB2 = {
+			isa = PBXGroup;
+			children = (
+				181150B0269FE54F006B3FB2 /* CarrotCloneApp */,
+				181150AF269FE54F006B3FB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181150AF269FE54F006B3FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181150AE269FE54F006B3FB2 /* CarrotCloneApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181150B0269FE54F006B3FB2 /* CarrotCloneApp */ = {
+			isa = PBXGroup;
+			children = (
+				187DB84326A40DCB00AF7B27 /* MyCarrot */,
+				18E84B0226A2DD1B002027FC /* Nearby */,
+				189DB83526A1756A005AF3E1 /* Helpers */,
+				181150C6269FE860006B3FB2 /* Resources */,
+				181150C5269FE77B006B3FB2 /* Model */,
+				181150C0269FE56F006B3FB2 /* Home */,
+				18B016C426A1568F00A713DE /* DetailShopping */,
+				181150B1269FE54F006B3FB2 /* CarrotCloneAppApp.swift */,
+				181150B3269FE54F006B3FB2 /* ContentView.swift */,
+				181150B5269FE552006B3FB2 /* Assets.xcassets */,
+				181150BA269FE552006B3FB2 /* Info.plist */,
+				181150B7269FE552006B3FB2 /* Preview Content */,
+			);
+			path = CarrotCloneApp;
+			sourceTree = "<group>";
+		};
+		181150B7269FE552006B3FB2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				181150B8269FE552006B3FB2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		181150C0269FE56F006B3FB2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				181150C1269FE6E5006B3FB2 /* HomeView.swift */,
+				181150C3269FE720006B3FB2 /* HomRow.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		181150C5269FE77B006B3FB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				181150C9269FE8E9006B3FB2 /* Item.swift */,
+				18E84AFF26A2CD5F002027FC /* SellerItem.swift */,
+				181150CD269FE9EC006B3FB2 /* Profile.swift */,
+				181150CB269FE90A006B3FB2 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		181150C6269FE860006B3FB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				181150C7269FE874006B3FB2 /* itemList.json */,
+				18E84AFE26A2CC6B002027FC /* otherItemList.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		187DB84326A40DCB00AF7B27 /* MyCarrot */ = {
+			isa = PBXGroup;
+			children = (
+				187DB84826A418FD00AF7B27 /* Badge */,
+				187DB84426A40DE900AF7B27 /* MyCarrotView.swift */,
+				187DB84626A4119200AF7B27 /* MiniProfile.swift */,
+			);
+			path = MyCarrot;
+			sourceTree = "<group>";
+		};
+		187DB84826A418FD00AF7B27 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				187DB84926A419D500AF7B27 /* Badge.swift */,
+				187DB84A26A419D600AF7B27 /* BadgeBackground.swift */,
+				187DB84D26A419D600AF7B27 /* BadgeSymbol.swift */,
+				187DB84E26A419D600AF7B27 /* HexagonParameters.swift */,
+				187DB84B26A419D600AF7B27 /* HikeBadge.swift */,
+				187DB84C26A419D600AF7B27 /* RotatedBadgeSymbol.swift */,
+			);
+			path = Badge;
+			sourceTree = "<group>";
+		};
+		189DB83526A1756A005AF3E1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				189DB83626A17578005AF3E1 /* CircleImage.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		18B016C426A1568F00A713DE /* DetailShopping */ = {
+			isa = PBXGroup;
+			children = (
+				18B016C526A156D500A713DE /* DetailShoppingView.swift */,
+				18E84AF426A278F2002027FC /* SellersOtherSellListView.swift */,
+				18E84AF826A27E56002027FC /* Card.swift */,
+				18E84AFA26A2B02B002027FC /* CardGridView.swift */,
+			);
+			path = DetailShopping;
+			sourceTree = "<group>";
+		};
+		18E84B0226A2DD1B002027FC /* Nearby */ = {
+			isa = PBXGroup;
+			children = (
+				18E84B0326A2DD3E002027FC /* NearbyView.swift */,
+				187DB83F26A3CDF300AF7B27 /* CategoryGridView.swift */,
+				187DB84126A4003200AF7B27 /* Category.swift */,
+			);
+			path = Nearby;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181150AD269FE54F006B3FB2 /* CarrotCloneApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181150BD269FE552006B3FB2 /* Build configuration list for PBXNativeTarget "CarrotCloneApp" */;
+			buildPhases = (
+				181150AA269FE54F006B3FB2 /* Sources */,
+				181150AB269FE54F006B3FB2 /* Frameworks */,
+				181150AC269FE54F006B3FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarrotCloneApp;
+			productName = CarrotCloneApp;
+			productReference = 181150AE269FE54F006B3FB2 /* CarrotCloneApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181150A6269FE54F006B3FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					181150AD269FE54F006B3FB2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 181150A9269FE54F006B3FB2 /* Build configuration list for PBXProject "CarrotCloneApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181150A5269FE54F006B3FB2;
+			productRefGroup = 181150AF269FE54F006B3FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181150AD269FE54F006B3FB2 /* CarrotCloneApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181150AC269FE54F006B3FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181150B9269FE552006B3FB2 /* Preview Assets.xcassets in Resources */,
+				181150B6269FE552006B3FB2 /* Assets.xcassets in Resources */,
+				181150C8269FE874006B3FB2 /* itemList.json in Resources */,
+				18E84B0126A2DA25002027FC /* otherItemList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181150AA269FE54F006B3FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187DB85426A419D600AF7B27 /* HexagonParameters.swift in Sources */,
+				181150C2269FE6E5006B3FB2 /* HomeView.swift in Sources */,
+				18B016C626A156D500A713DE /* DetailShoppingView.swift in Sources */,
+				181150CA269FE8E9006B3FB2 /* Item.swift in Sources */,
+				187DB85026A419D600AF7B27 /* BadgeBackground.swift in Sources */,
+				187DB84026A3CDF300AF7B27 /* CategoryGridView.swift in Sources */,
+				181150B4269FE54F006B3FB2 /* ContentView.swift in Sources */,
+				181150CE269FE9EC006B3FB2 /* Profile.swift in Sources */,
+				18E84B0426A2DD3E002027FC /* NearbyView.swift in Sources */,
+				187DB84726A4119200AF7B27 /* MiniProfile.swift in Sources */,
+				187DB84226A4003200AF7B27 /* Category.swift in Sources */,
+				189DB83726A17578005AF3E1 /* CircleImage.swift in Sources */,
+				181150B2269FE54F006B3FB2 /* CarrotCloneAppApp.swift in Sources */,
+				18E84AF926A27E56002027FC /* Card.swift in Sources */,
+				187DB85226A419D600AF7B27 /* RotatedBadgeSymbol.swift in Sources */,
+				187DB85126A419D600AF7B27 /* HikeBadge.swift in Sources */,
+				187DB84526A40DE900AF7B27 /* MyCarrotView.swift in Sources */,
+				181150C4269FE720006B3FB2 /* HomRow.swift in Sources */,
+				18E84B0026A2CD5F002027FC /* SellerItem.swift in Sources */,
+				18E84AF526A278F2002027FC /* SellersOtherSellListView.swift in Sources */,
+				181150CC269FE90A006B3FB2 /* ModelData.swift in Sources */,
+				18E84AFB26A2B02B002027FC /* CardGridView.swift in Sources */,
+				187DB84F26A419D600AF7B27 /* Badge.swift in Sources */,
+				187DB85326A419D600AF7B27 /* BadgeSymbol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		181150BB269FE552006B3FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		181150BC269FE552006B3FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181150BE269FE552006B3FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CarrotCloneApp/Preview Content\"";
+				DEVELOPMENT_TEAM = M96L4WMU9C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CarrotCloneApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = odyflame.CarrotCloneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181150BF269FE552006B3FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CarrotCloneApp/Preview Content\"";
+				DEVELOPMENT_TEAM = M96L4WMU9C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CarrotCloneApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = odyflame.CarrotCloneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181150A9269FE54F006B3FB2 /* Build configuration list for PBXProject "CarrotCloneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181150BB269FE552006B3FB2 /* Debug */,
+				181150BC269FE552006B3FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181150BD269FE552006B3FB2 /* Build configuration list for PBXNativeTarget "CarrotCloneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181150BE269FE552006B3FB2 /* Debug */,
+				181150BF269FE552006B3FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181150A6269FE54F006B3FB2 /* Project object */;
+}
