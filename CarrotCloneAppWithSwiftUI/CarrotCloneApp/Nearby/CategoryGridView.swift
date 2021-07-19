@@ -19,15 +19,15 @@ struct CategoryGridView: View {
         GridItem(.flexible(), spacing: 10)
     ]
     var body: some View {
-        ScrollView {
-            LazyVGrid(columns: columns, content: {
-                ForEach(data, id: \.self) {_ in
-                    Image("CarrotBusket")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                }
-            })
-        }
+        
+        LazyVGrid(columns: columns, content: {
+            ForEach(data, id: \.self) {_ in
+                Image("CarrotBusket")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+            }
+        })
+        
     }
 }
 

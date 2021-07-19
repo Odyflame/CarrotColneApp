@@ -27,6 +27,8 @@
 		187DB85226A419D600AF7B27 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB84C26A419D600AF7B27 /* RotatedBadgeSymbol.swift */; };
 		187DB85326A419D600AF7B27 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB84D26A419D600AF7B27 /* BadgeSymbol.swift */; };
 		187DB85426A419D600AF7B27 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB84E26A419D600AF7B27 /* HexagonParameters.swift */; };
+		1885221726A5202600CA233D /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885221626A5202600CA233D /* ChatView.swift */; };
+		1885221926A5203100CA233D /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885221826A5203100CA233D /* ChatCell.swift */; };
 		189DB83726A17578005AF3E1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189DB83626A17578005AF3E1 /* CircleImage.swift */; };
 		18B016C626A156D500A713DE /* DetailShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B016C526A156D500A713DE /* DetailShoppingView.swift */; };
 		18E84AF526A278F2002027FC /* SellersOtherSellListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E84AF426A278F2002027FC /* SellersOtherSellListView.swift */; };
@@ -60,6 +62,8 @@
 		187DB84C26A419D600AF7B27 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		187DB84D26A419D600AF7B27 /* BadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		187DB84E26A419D600AF7B27 /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		1885221626A5202600CA233D /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		1885221826A5203100CA233D /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		189DB83626A17578005AF3E1 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		18B016C526A156D500A713DE /* DetailShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailShoppingView.swift; sourceTree = "<group>"; };
 		18E84AF426A278F2002027FC /* SellersOtherSellListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellersOtherSellListView.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 		181150B0269FE54F006B3FB2 /* CarrotCloneApp */ = {
 			isa = PBXGroup;
 			children = (
+				1885221526A51FD700CA233D /* Chatting */,
 				187DB84326A40DCB00AF7B27 /* MyCarrot */,
 				18E84B0226A2DD1B002027FC /* Nearby */,
 				189DB83526A1756A005AF3E1 /* Helpers */,
@@ -174,6 +179,15 @@
 				187DB84C26A419D600AF7B27 /* RotatedBadgeSymbol.swift */,
 			);
 			path = Badge;
+			sourceTree = "<group>";
+		};
+		1885221526A51FD700CA233D /* Chatting */ = {
+			isa = PBXGroup;
+			children = (
+				1885221626A5202600CA233D /* ChatView.swift */,
+				1885221826A5203100CA233D /* ChatCell.swift */,
+			);
+			path = Chatting;
 			sourceTree = "<group>";
 		};
 		189DB83526A1756A005AF3E1 /* Helpers */ = {
@@ -293,11 +307,13 @@
 				187DB85226A419D600AF7B27 /* RotatedBadgeSymbol.swift in Sources */,
 				187DB85126A419D600AF7B27 /* HikeBadge.swift in Sources */,
 				187DB84526A40DE900AF7B27 /* MyCarrotView.swift in Sources */,
+				1885221726A5202600CA233D /* ChatView.swift in Sources */,
 				181150C4269FE720006B3FB2 /* HomRow.swift in Sources */,
 				18E84B0026A2CD5F002027FC /* SellerItem.swift in Sources */,
 				18E84AF526A278F2002027FC /* SellersOtherSellListView.swift in Sources */,
 				181150CC269FE90A006B3FB2 /* ModelData.swift in Sources */,
 				18E84AFB26A2B02B002027FC /* CardGridView.swift in Sources */,
+				1885221926A5203100CA233D /* ChatCell.swift in Sources */,
 				187DB84F26A419D600AF7B27 /* Badge.swift in Sources */,
 				187DB85326A419D600AF7B27 /* BadgeSymbol.swift in Sources */,
 			);
