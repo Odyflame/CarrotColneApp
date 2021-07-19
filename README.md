@@ -1,5 +1,5 @@
 # CarrotColneApp
-> Carrot clone App
+> Carrot clone App.   
 > 당근 App 중 SwiftU를 사용해서 홈, 내 근처, 나의 당근의 UI를 클론해서 만들어 보았습니다.
 > API가 없기에 Json으로 mock데이터를 임시로 만들어 사용했습니다.
 
