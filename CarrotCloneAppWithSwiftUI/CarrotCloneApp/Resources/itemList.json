@@ -1,0 +1,68 @@
+[
+    {
+        "name": "쇼핑백",
+        "category": "Clothes",
+        "city": "SamsungDong",
+        "state": "Korea",
+        "id": 1001,
+        
+        "isFeatured": true,
+        "isFavorite": true,
+        "description": "이거 제발 사주세요 난 이걸 팔기 위해 부산에서 서울까지 올라왔어요. 당근에서 이거 살려구 여기까지 올라왔단 말이에요",
+        "imageName": "turtlerock",
+        
+        "price": 2500,
+        "chatNum": 10,
+        "messageNum": 5,
+        "heartNum": 48,
+        
+        "sellerId": "사샤",
+        "sellerImage": "charleyrivers",
+        "interestNum": 6,
+        "checkNum": 494
+    },
+    {
+        "name": "휴대폰",
+        "category": "Clothes",
+        "city": "IllwonDong",
+        "state": "Korea",
+        "id": 1002,
+        
+        "isFeatured": true,
+        "isFavorite": true,
+        "description": "이거 제발 사주세요 난 이걸 팔기 위해 부산에서 서울까지 올라왔어요 당근에서 이거 살려구 여기까지 올라왔단 말이에요. 이거 정말 안사실건가요>? 제가 좀 더 깎아드릴게요 여기서 이가격이면 어디가서 못사요",
+        "imageName": "stmarylake",
+        
+        "price": 13000,
+        "chatNum": 20,
+        "messageNum": 15,
+        "heartNum": 8,
+        
+        "sellerId": "캐롯",
+        "sellerImage": "charleyrivers",
+        "interestNum": 29,
+        "checkNum": 1034
+    },
+    {
+        "name": "노트북",
+        "category": "Food",
+        "city": "IllwonDong",
+        "state": "Korea",
+        "id": 1003,
+        
+        "isFeatured": true,
+        "isFavorite": true,
+        "description": "나는 누구인가? 이 물건을 팔러 백제부터 물건을 대대손손 지켜 여기까지 왔다. 이거 제발 사주세요 난 이걸 팔기 위해 부산에서 서울까지 올라왔어요 당근에서 이거 살려구 여기까지 올라왔단 말이에요. 이거 정말 안사실건가요>? 제가 좀 더 깎아드릴게요 여기서 이가격이면 어디가서 못사요",
+        "imageName": "stmarylake",
+        
+        "price": 24300,
+        "chatNum": 13,
+        "messageNum": 65,
+        "heartNum": 22,
+        
+        "sellerId": "샤넬",
+        "sellerImage": "charleyrivers",
+        "interestNum": 9,
+        "checkNum": 14
+    }
+]
