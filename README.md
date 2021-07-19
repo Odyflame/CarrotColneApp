@@ -26,9 +26,9 @@ SwiftUI, Combine
 ### Home Detail view
 | ![DetailView](https://user-images.githubusercontent.com/44191131/126094900-0da8d8bb-6925-40d1-b8f6-b0d03dcb9f85.jpeg) | ![DetailView2](https://user-images.githubusercontent.com/44191131/126094904-e0c36624-43cc-45f3-ac89-ce6e965a4afc.jpeg)
 |---|---|
-### My Nearby View
-| ![NearbyView](https://user-images.githubusercontent.com/44191131/126094938-e656a1b5-3801-4bd3-b4aa-d868ae3062f6.jpeg) | 
-|---|
+### My Nearby View and ChatView
+| ![NearbyView](https://user-images.githubusercontent.com/44191131/126094938-e656a1b5-3801-4bd3-b4aa-d868ae3062f6.jpeg) | ![ChatView](https://user-images.githubusercontent.com/44191131/126101256-9c0f646e-75df-4f2a-9e2c-8056ec7867ae.jpeg)
+|---|---|
 ### My Carrot View
 | ![MyCarrotView](https://user-images.githubusercontent.com/44191131/126094949-3608fc5f-764b-41f0-8707-03afa8508ae0.jpeg) | ![MyCarrotView2](https://user-images.githubusercontent.com/44191131/126094972-9032316c-b457-43dd-a132-bab3b4f694b9.jpeg)
 |---|---|
