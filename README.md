@@ -1,5 +1,7 @@
 # CarrotColneApp
 > Carrot clone App
+> 당근 App 중 SwiftU를 사용해서 홈, 내 근처, 나의 당근의 UI를 클론해서 만들어 보았습니다.
+> API가 없기에 Json으로 mock데이터를 임시로 만들어 사용했습니다.
 
 ## 🛠 Development Environment
 
@@ -18,3 +20,18 @@ SwiftUI, Combine
 </div>
 
 ## Func List
+### Home View
+| ![Home](https://user-images.githubusercontent.com/44191131/126094832-73cb313d-019d-49e4-a180-37400d725868.jpeg) | ![dongneFilter](https://user-images.githubusercontent.com/44191131/126094857-aa8ca0bb-c654-4dc0-8a04-4b73d57dbc1e.jpeg)
+| ![FilteredHome](https://user-images.githubusercontent.com/44191131/126094873-bb4c5beb-6d50-41d6-8294-cc486cb047b3.jpeg)
+|---|---|
+### Home Detail view
+| ![DetailView](https://user-images.githubusercontent.com/44191131/126094900-0da8d8bb-6925-40d1-b8f6-b0d03dcb9f85.jpeg) | ![DetailView2](https://user-images.githubusercontent.com/44191131/126094904-e0c36624-43cc-45f3-ac89-ce6e965a4afc.jpeg)
+|---|---|
+### My Nearby View
+| ![NearbyView](https://user-images.githubusercontent.com/44191131/126094938-e656a1b5-3801-4bd3-b4aa-d868ae3062f6.jpeg) | 
+|---|
+### My Carrot View
+| ![MyCarrotView](https://user-images.githubusercontent.com/44191131/126094949-3608fc5f-764b-41f0-8707-03afa8508ae0.jpeg) | ![MyCarrotView2](https://user-images.githubusercontent.com/44191131/126094972-9032316c-b457-43dd-a132-bab3b4f694b9.jpeg)
+|---|---|
+
+
