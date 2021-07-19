@@ -17,7 +17,7 @@ struct HomeView: View {
     enum FilterCategory: String, CaseIterable, Identifiable {
         case clothes = "SamsungDong"
         case food = "IllwonDong"
-        case house = "Setting My Hometown"
+        case house = "모든 동네"
         
         var id: FilterCategory { self }
     }
@@ -60,7 +60,13 @@ struct HomeView: View {
                         .pickerStyle(InlinePickerStyle())
                         
                     } label: {
-                        Label(filter.rawValue, systemImage: "slider.horizontal.3")
+                        HStack {
+                            Text(filter.rawValue)
+                                .foregroundColor(.black)
+                            Image(systemName: "arrow.down.app")
+                                .foregroundColor(.black)
+                        }
+                        //Label(filter.rawValue, systemImage: "slider.horizontal.3")
                     }
                     
                 }
